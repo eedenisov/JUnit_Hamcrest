@@ -88,7 +88,6 @@ public class CalculatorTests {
         int result = sut.linearEquation(x);
 
         assertEquals(expected, result);
-
     }
 
     public static Stream<Arguments> source() {
